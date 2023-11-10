@@ -13,3 +13,7 @@ Todas as estratégias seguem o contrato de uma interface, ou seja, todas tem a m
 <p>-Você pode isolar os detalhes de implementação de um algoritmo do código que usa ele.</p>
 
 <p>Princípio aberto/fechado. Você pode introduzir novas estratégias sem mudar o contexto. Basicamente, sem ficar adicionando IF/ELSE e Switch Cases no seu código.</p>
+
+# Video Mostrando a implementação + caso real de uso
+
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:7128025916349235202/"><a/>
