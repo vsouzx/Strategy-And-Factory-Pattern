@@ -16,4 +16,4 @@ Todas as estratégias seguem o contrato de uma interface, ou seja, todas tem a m
 
 # Video Mostrando a implementação + caso real de uso
 
-<a href="https://www.linkedin.com/feed/update/urn:li:activity:7128025916349235202/"><a/>
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:7128025916349235202/">Vídeo explicativo e com exemplo<a/>
