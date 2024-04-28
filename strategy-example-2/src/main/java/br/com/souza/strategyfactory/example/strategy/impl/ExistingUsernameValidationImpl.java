@@ -25,7 +25,7 @@ public class ExistingUsernameValidationImpl implements NewAccountValidationStrat
     }
 
     private boolean isValidUsername(String username){
-        return database.getAll().stream()
-                .noneMatch(userUUID -> database.get(userUUID).getUsername().equals(username));
+        return database.findAll().stream()
+                .noneMatch(userUUID -> database.findById(userUUID).getUsername().equals(username));
     }
 }

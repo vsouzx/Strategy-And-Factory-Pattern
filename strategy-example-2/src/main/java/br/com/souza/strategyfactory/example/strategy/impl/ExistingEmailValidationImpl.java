@@ -25,7 +25,7 @@ public class ExistingEmailValidationImpl implements NewAccountValidationStrategy
     }
 
     private boolean isValidEmail(String email){
-        return database.getAll().stream()
-                .noneMatch(userUUID -> database.get(userUUID).getEmail().equals(email));
+        return database.findAll().stream()
+                .noneMatch(userUUID -> database.findById(userUUID).getEmail().equals(email));
     }
 }

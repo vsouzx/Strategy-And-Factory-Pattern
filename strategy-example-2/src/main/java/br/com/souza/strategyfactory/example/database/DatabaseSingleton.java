@@ -21,15 +21,15 @@ public class DatabaseSingleton {
         return instance;
     }
 
-    public void put(UserEntity user){
+    public void save(UserEntity user){
         DATABASE.put(user.getId(), user);
     }
 
-    public UserEntity get(UUID uuid){
+    public UserEntity findById(UUID uuid){
         return DATABASE.get(uuid);
     }
 
-    public Set<UUID> getAll(){
+    public Set<UUID> findAll(){
         return DATABASE.keySet();
     }
 }
